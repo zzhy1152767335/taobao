@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<style>
+        * {
+        	padding: 0;
+        	margin: 0;
+        }
+        .uu {
+        	width: 100%;
+        	height: 300px;
+        	margin: 0 auto;
+        }
+		ul.nav>li {
+			width: 100px;
+			height: 30px;
+			float: left;
+			font-size: 16px;
+		}
+		ul.nav::after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		ul.nav .sunzi{
+            position: absolute;
+           margin-left: 10px;
+            display: none;
+		}
+		ul.nav>li:hover {
+           background-color: pink;
+		}
+		ul.nav>li:hover > ul.sunzi {
+			display: block;
+		}
+		/*.p {
+			height: 200px;
+			background-color: pink;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="uu">
+		<ul class="nav">
+		<li class="sub_nav">
+		    <a href="#">成绩查询</a>
+		    <ul class="sunzi">
+		    	<li><a href="#">专业课查询</a></li>
+		    	<li><a href="#">选修课查询</a></li>
+		    </ul>
+		</li>
+		<li><a href="#">教师评价</a></li>
+		<li><a href="#">毕业论文</a></li>
+	</ul>
+	</div>
+	<div class="p"></div>
+</body>
+</html>

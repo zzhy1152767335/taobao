@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 12px;
+}
+ul,li,ol ,p{
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	border: 1px sold red;
+}
+input {
+	padding-top:0;
+	padding-bottom:0;
+	bottom: none;
+}
+img {
+	border: none;
+}
